@@ -1,0 +1,11 @@
+.shopinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.shopinfo > h3{
+    font-family: 'Roboto';
+}

@@ -1,0 +1,18 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register > h3 {
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: #ffff;
+    margin-bottom: 20px;
+}
+
+.errorStyles{
+    font-family: 'Sora';
+    font-size: 12px;
+}

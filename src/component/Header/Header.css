@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #3437eb; */
+    height: 60px;
+}
+
+.header__title {
+    color: #ffff;
+    font-family: 'Roboto';
+    margin-left: 15px;
+}
+
+.header__actions{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__actions > p {
+  font-family: 'Sora';
+  color: gray;
+}

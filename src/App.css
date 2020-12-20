@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.App {
+    background-image: url('assets/images/bimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

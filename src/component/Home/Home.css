@@ -1,0 +1,57 @@
+.home{
+    margin: 20px;
+}
+
+.home__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.home__content > h2{
+    font-family: 'Roboto';
+    color: #ffff;
+    font-size: 35px;
+}
+
+.home__content > h3{
+    font-family: 'Roboto';
+    color: grey;
+}
+
+.home__content > div> h3{
+    font-family: 'Sora';
+}
+
+.auth__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth__content {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+
+.auth__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#42edbd;
+    border: 1px solid grey;
+    height: 200px;
+}
+
+.auth__items:hover {
+    transform: scale(1.02);
+}
+
+.auth__items > div > h3 {
+    font-family: 'Roboto';
+}
